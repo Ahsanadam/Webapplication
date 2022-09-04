@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Drake albums</title>
+		<script type="text/javascript" src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+
+	<nav class="nav">
+		<ul>
+			<li class="extra-item"><a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/index.html">HOME</a></li>
+			<li><a href="#footer">CONTACT</a></li>
+			<li>
+				<img class="logo" src="images/ovo.png" alt="logo"/>
+			</li>
+			<li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+			<li class="extra-item"><a href="https://twitter.com/?lang=en">TWITTER</a></li>
+
+
+
+		</ul>
+	</nav>
+
+	<section class="hero-section">
+		<div class="row">
+			<div class="container">
+				<img class="logo" src="images/newdrake1.png" alt="drake1"/>
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake2.png" alt="drake2" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake3.png" alt="drake3" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake4.png" alt="drake4" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake5.png" alt="drake5" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+		
+
+		</div>
+
+		<div class="row">
+			<div class="container">
+				<img src="images/newdrake6.png" alt="drake6" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake7.png" alt="drake7" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake8.png" alt="drake8" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake9.png" alt="drake9" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+				<img src="images/newdrake10.png" alt="drake10" />
+				<div class="middle">
+					<text class="text">Sample text</text>
+
+				</div>
+
+			</div>
+			
+	
+		</div>
+		
+	</section>
+
+	<section onload="loadData()">
+  		<div id="formDiv">
+      		<div id = "aboutDrake"></div>
+      		<div id = "aboutDrake2"></div>
+        	<form id="ratingForm">
+            	<h1>Rate the albums</h1>
+            	<label for="album" >Which album do you want to rate?</label>
+            	<input type="text" id="album" placeholder="Album" required autofocus
+             	 minlength="3" maxlength="50">
+        <br>
+            	<label for="rating" >Rating 0-5:</label>
+            	<input type="number" id="rating" placeholder="Rating 1-5" required
+              	min="0" max="5">
+        <br>
+            	<label for="fullName" >Full name:</label>
+            	<input type="text" id="fullName" placeholder="Full name" required
+             	 minlength="2" maxlength="50">
+            	<br>
+            	<button id="submitButton" type="submit">Submit</button>
+       		 </form>
+        <br>
+        		<label for="retrieveRating" >Enter full name to retrieve rating: </label>
+        		<input type="text" id="retrieveRating" placeholder="Full name" required
+          			minlength="2" maxlength="50"><br>
+        		<button id="retrieveButton">Retrieve rating</button>
+        <br>
+        		<div id="retrieve"></div>
+        <br>
+        		<label for="removeRating" >Enter full name to delete rating:</label>
+       			 <input type="text" id="removeRating" placeholder="Full name" required
+          			minlength="2" maxlength="50"><br>
+        		<button id="removeButton">Remove record</button>
+        <!-- <br>
+        		<button id="clearButton">Clear all records</button> -->
+  			</div>
+	</section>
+
+	<footer id="footer" class="footer">
+		<p>If you have any questions, contact us on drakereviews@gmail.com</p>
+	</footer>
+
+</body>
+</html>
