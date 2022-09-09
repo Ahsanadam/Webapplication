@@ -11,8 +11,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 	</head>
 	
-	<body>
-
+	<body onload="loadData()">
 	<nav class="nav">
 		<ul>
 			<li class="extra-item"><a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/index.html">HOME</a></li>
@@ -23,15 +22,16 @@
 			<li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
 			<li class="extra-item"><a href="https://twitter.com/?lang=en">TWITTER</a></li>
 
-
-
 		</ul>
 	</nav>
 
 	<section class="hero-section">
+
+		<div id = "aboutDrake"></div>
+      	<div id = "aboutDrake2"></div>
 		<div class="row">
 			<div class="container">
-				<img class="logo" src="images/newdrake1.png" alt="drake1"/>
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img src="images/newdrake1.png" alt="drake1"/></a>
 				<div class="middle">
 					<text class="text">If you're reading this it's too late</text>
 
@@ -40,7 +40,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake2.png" alt="drake2" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img src="images/newdrake2.png" alt="drake2"/></a>
 				<div class="middle">
 					<text class="text">Take Care</text>
 
@@ -49,7 +49,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake3.png" alt="drake3" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img src="images/newdrake3.png" alt="drake3"/></a>
 				<div class="middle">
 					<text class="text">Thank Me Later</text>
 
@@ -58,7 +58,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake4.png" alt="drake4" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img src="images/newdrake4.png" alt="drake4"/></a>
 				<div class="middle">
 					<text class="text">Views</text>
 
@@ -67,7 +67,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake5.png" alt="drake5" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img src="images/newdrake5.png" alt="drake5"/></a>
 				<div class="middle">
 					<text class="text">Certified Lover Boy</text>
 
@@ -80,7 +80,7 @@
 
 		<div class="row">
 			<div class="container">
-				<img src="images/newdrake6.png" alt="drake6" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img class="logo" src="images/newdrake6.png" alt="drake6"/></a>
 				<div class="middle">
 					<text class="text">Nothing Was the Same</text>
 
@@ -89,7 +89,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake7.png" alt="drake7" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img class="logo" src="images/newdrake7.png" alt="drake7"/></a>
 				<div class="middle">
 					<text class="text">Scorpion</text>
 
@@ -98,7 +98,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake8.png" alt="drake8" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img class="logo" src="images/newdrake8.png" alt="drake8"/></a>
 				<div class="middle">
 					<text class="text">More Life</text>
 
@@ -107,7 +107,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake9.png" alt="drake9" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img class="logo" src="images/newdrake9.png" alt="drake9"/></a>
 				<div class="middle">
 					<text class="text">So Far Gone</text>
 
@@ -116,7 +116,7 @@
 			</div>
 
 			<div class="container">
-				<img src="images/newdrake10.png" alt="drake10" />
+				<a href="file:///C:/Users/Stud/Desktop/Webbapplikation%20Artist%20hemsida/under-page.html"><img class="logo" src="images/newdrake10.png" alt="drake10"/></a>
 				<div class="middle">
 					<text class="text">Dark Lane Demo Tapes</text>
 
@@ -129,10 +129,7 @@
 		
 	</section>
 
-	<section onload="loadData()">
-  		<div id="formDiv">
-      		<div id = "aboutDrake"></div>
-      		<div id = "aboutDrake2"></div>
+	<section id="formDiv">
         	<form id="ratingForm">
             	<h1>Rate the albums</h1>
             	<label for="album" >Which album do you want to rate?</label>
@@ -163,7 +160,7 @@
         		<button id="removeButton">Remove record</button>
         <!-- <br>
         		<button id="clearButton">Clear all records</button> -->
-  			</div>
+  			
 	</section>
 
 	<footer id="footer" class="footer">
